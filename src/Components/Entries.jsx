@@ -23,7 +23,7 @@ function Entries() {
 
             <EntryModal />
 
-            <h3 className="my-4"><span className="badge bg-success shadow-lg">Journal Name : {selected_journal.title} </span></h3>
+            <h3 className="my-4"><span className="badge bg-success shadow-lg">{selected_journal.title} </span></h3>
             
             <EntryTab />
 
