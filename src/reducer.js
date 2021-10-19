@@ -4,7 +4,8 @@ import journals from './data/dummydata';
 
 export const initialState = {
     
-    URL : 'http://127.0.0.1:4000',
+    // URL : 'http://127.0.0.1:4000',
+    URL : 'https://f1h9m3kan2.execute-api.ap-south-1.amazonaws.com/dev',
     user_id : localStorage.getItem("user_id"),
     journals : [],
     selected_journal : {},
